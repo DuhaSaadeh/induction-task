@@ -1,5 +1,5 @@
 # induction-task
-Snacks machine code
+Part 2
 
 1- What are Mutation Observers in JavaScript?
 It’s part of JavaScript core API, it allows you to observe/track Document Object Model (DOM) related changes that are happening within the time frame of your web page, by callback function.
