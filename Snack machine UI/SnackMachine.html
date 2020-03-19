@@ -1,0 +1,82 @@
+<html>
+	<head> 
+		<title>Home</title>
+		<style type="text/css">
+			.money {
+			  height: 30px;
+			  width: 60px;
+			  border-radius: 50%;
+			}
+			.machine {
+			  height: 600px;
+			  width: 600px;
+			  border: 5px solid black;
+			  background-color: darkgray;
+			}
+			.moneyMonitor {
+			  height: 60px;
+			  width: 150px;
+			  background-color: white;
+			  border: 3px solid black;
+			}
+			.window {
+			  height: 100px;
+			  width: 200px;
+			  background-color: gray;
+			}
+			.dropped {
+			  height: 60px;
+			  width: 400px;
+			  background-color: gray;
+			  border: 5px solid black;
+			}
+			.quantityWindow {
+			  height: 30px;
+			  width: 80px;
+			  background-color: white;
+			  border: 2px solid black;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="machine" style="position:absolute; left:200; top:30;">
+			<!-- Money Buttons -->
+			<button style="position:absolute; left:400; top:300; border-radius: 20%; font-size: 15px;">0.25JD</button>
+			<button style="position:absolute; left:480; top:300; border-radius: 20%; font-size: 15px;">0.50JD</button>
+			<button style="position:absolute; left:400; top:330; border-radius: 20%; font-size: 15px;">1JD</button>
+			<button style="position:absolute; left:450; top:330; border-radius: 20%; font-size: 15px;">5JD</button>
+			<button style="position:absolute; left:500; top:330; border-radius: 20%; font-size: 15px;">10JD</button>
+		
+			<!--Money inside machine monitor -->
+			<div class="moneyMonitor" style="position:absolute; left:400; top:80;"><p style="text-align:top; color:black; text-decoration:underline; font-size:small;">Money Inside Machine:</p></div>
+			
+			<!--Money in transaction monitor -->
+			<div class="moneyMonitor" style="position:absolute; left:400; top:150;"><p style="text-align:top; color:black; text-decoration:underline; font-size:small;">Money in Transaction:</p></div>
+			
+			<!--Money change monitor -->
+			<div class="moneyMonitor" style="position:absolute; left:400; top:220;"><p style="text-align:top; color:black; text-decoration:underline; font-size:small;">Change:</p></div>
+		
+			<!--GUM  -->
+			<div class="window" style="position:absolute; left:150; top:50;"><img src="GUM.png" width="100%" height="100%" ></div>
+			<button style="position:absolute; left:80; top:110; border-radius: 20%; font-size: 20px;">BUY</button>
+			<div class="quantityWindow" style="position:absolute; left:60; top:50;" >Quantity:10</div>
+			
+			<!--CHIPS  -->
+			<div class="window" style="position:absolute; left:150; top:200;"><img src="CHIPS.png" width="100%" height="100%" ></div>
+			<button style="position:absolute; left:80; top:260; border-radius: 20%; font-size: 20px;">BUY</button>
+			<div class="quantityWindow" style="position:absolute; left:60; top:200;" >Quantity:10</div>
+			
+			<!--CHOCOLATE  -->
+			<div class="window" style="position:absolute; left:150; top:350;"><img src="CHOCOLATE.png" width="100%" height="100%" ></div>
+			<button style="position:absolute; left:80; top:410; border-radius: 20%; font-size: 20px;">BUY</button>
+			<div class="quantityWindow" style="position:absolute; left:60; top:350; text-align:top;" >Quantity:10</div>
+			
+			<!--Droped Space -->
+			<div class="dropped" style="position:absolute; left:150; bottom:50; background-color:gray;"></div>
+			
+		</div>
+		
+		
+		
+	</body>
+</html>
